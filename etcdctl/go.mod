@@ -17,7 +17,7 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.23
 	go.etcd.io/etcd/etcdutl/v3 v3.5.23
 	go.etcd.io/etcd/pkg/v3 v3.5.23
-	go.uber.org/zap v1.17.0
+	go.uber.org/zap v1.27.1
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	google.golang.org/grpc v1.71.1
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
@@ -58,8 +58,7 @@ require (
 	go.opentelemetry.io/otel v1.34.0 // indirect
 	go.opentelemetry.io/otel/metric v1.34.0 // indirect
 	go.opentelemetry.io/otel/trace v1.34.0 // indirect
-	go.uber.org/atomic v1.7.0 // indirect
-	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
@@ -78,6 +77,7 @@ replace (
 	go.etcd.io/etcd/pkg/v3 => ../pkg
 	go.etcd.io/etcd/raft/v3 => ../raft
 	go.etcd.io/etcd/server/v3 => ../server
+	golang.org/x/crypto v0.36.0 => golang.org/x/crypto v0.45.0
 )
 
 // Bad imports are sometimes causing attempts to pull that code.

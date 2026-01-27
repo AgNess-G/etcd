@@ -32,7 +32,7 @@ require (
 	go.etcd.io/etcd/raft/v3 v3.5.23
 	go.etcd.io/etcd/server/v3 v3.5.23
 	go.etcd.io/etcd/tests/v3 v3.5.23
-	go.uber.org/zap v1.17.0
+	go.uber.org/zap v1.27.1
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	google.golang.org/grpc v1.71.1
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
@@ -84,8 +84,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.34.0 // indirect
 	go.opentelemetry.io/otel/trace v1.34.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.0.0 // indirect
-	go.uber.org/atomic v1.7.0 // indirect
-	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect
