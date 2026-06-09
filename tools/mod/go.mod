@@ -1,6 +1,6 @@
 module go.etcd.io/etcd/tools/v3
 
-go 1.26.3
+go 1.26.4
 
 require (
 	github.com/alexkohler/nakedret v1.0.0

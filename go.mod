@@ -1,6 +1,6 @@
 module go.etcd.io/etcd/v3
 
-go 1.26.3
+go 1.26.4
 
 replace (
 	go.etcd.io/etcd/api/v3 => ./api
